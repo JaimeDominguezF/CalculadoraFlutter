@@ -11,6 +11,8 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: Apptheme.light,
+      initialRoute: Routes.calculator,
+      routes: AppRoutes.routes,
     );
   }
 }
